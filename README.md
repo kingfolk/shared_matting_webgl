@@ -5,7 +5,12 @@ Implement Shared Sampling for Real-Time Alpha Matting using webgl shader languag
 ***Note: all JS are written in ES6 standard***
 1. A modern browser
 2. turn on webgl. for new version chrome, it is automatically enabled.
-3. Copy code into your project along with all the shaders and `shared.js`
+3. A webgl wrapper dependency [`Igloo`](https://github.com/kingfolk/igloojs/blob/master/igloo.js). Do
+```
+npm install igloo-ext --save
+```
+or equaivalent to install this dependency.
+4. Copy code into your project along with all the shaders and `shared.js`
 
 ```js
 let canvas = document.getElementById(YourCanvasID);
