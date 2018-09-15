@@ -29,4 +29,4 @@ runner.run(scale);
 
 ## Demo
 
-http://kingfolk.github.io/projects/shared_matting_webgl#projectDemo
+go http://kingfolk.github.io, find project "Shared Matting WebGL" and click demo.
